@@ -1,0 +1,31 @@
+/* selects any <a> element when "hovered" */
+a:hover {
+  color: pink;
+  background: black;
+}
+
+/* selects any <a> that is being activated */
+a:active {
+  color: blue;
+}
+
+/* selects any <input> when focused */
+input:focus {
+  color: green;
+}
+
+.container {
+  width: 500px;
+}
+
+.div1 {
+  border: 100px solid purple;
+}
+
+.div2 {
+  border: 25px solid purple;
+}
+
+.div3 {
+  border: 25px solid purple;
+}
