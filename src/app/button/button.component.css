@@ -14,18 +14,10 @@ input:focus {
   color: green;
 }
 
-.container {
-  width: 500px;
-}
-
-.div1 {
-  border: 100px solid purple;
-}
-
-.div2 {
-  border: 25px solid purple;
-}
-
-.div3 {
-  border: 25px solid purple;
+.btn-class {  
+  border: 2px solid purple;
+  background:none;  
+  margin:0;
+  padding:0;
+  cursor: pointer;
 }

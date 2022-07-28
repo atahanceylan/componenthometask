@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+import { faPen } from '@fortawesome/free-solid-svg-icons';
+import { faTrash } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-root',
@@ -8,5 +9,6 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 })
 export class AppComponent {
   title = 'hometaskcomponent';
-  faCoffee = faCoffee;
+  faPen = faPen;
+  faTrash = faTrash;
 }

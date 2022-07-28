@@ -1,0 +1,17 @@
+  .div2 {  
+    border: 2px solid purple;
+    background:none;  
+    margin:0;
+    padding:0;
+    cursor: pointer;
+    display: inline-block;
+  }
+
+  .div3 {  
+    border: 2px solid purple;
+    background:none;  
+    margin:0;
+    padding:0;
+    cursor: pointer;
+    display: inline-block;
+  }

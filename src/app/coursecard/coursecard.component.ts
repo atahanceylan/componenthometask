@@ -12,6 +12,8 @@ export class CoursecardComponent implements OnInit {
   creationDate: Date = new Date();
   duration: number = 121;
   authors: string[] =["Dave Haisenberg, Tony Ja"];
+  buttonText!: string;
+  iconName!: string;
   
   constructor() { }
 

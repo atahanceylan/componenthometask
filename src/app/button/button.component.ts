@@ -8,12 +8,20 @@ import { Component, Input, OnInit } from '@angular/core';
 export class ButtonComponent implements OnInit {
 
   @Input()
-  buttonText: string ="Show course";
+  buttonText!: string;
 
   @Input()
-  iconName: string ="icon name";
+  iconName!: string;
+
+  @Input()
+  userName!: string;
 
   constructor() { }  
+
+  show()
+  {
+
+  }
 
   ngOnInit(): void {
    

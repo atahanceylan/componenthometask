@@ -13,7 +13,7 @@ export class InfoComponent implements OnInit {
   title!: string;
 
   @Input()
-  test!: string;
+  text!: string;
 
   ngOnInit(): void {
   }
