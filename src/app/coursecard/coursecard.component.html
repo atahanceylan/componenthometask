@@ -1,12 +1,12 @@
 <div class="container">
     <div class="row">
       <div class="col">
-        <h1>{{title}}</h1>
+        <h1>{{course.title}}</h1>
       </div>
       <div class="col">
-        <b>Authors:</b>{{authors}}<br/>
-        <b>Duration:</b>{{duration | date:'HH:mm'}} hours<br/>
-        <b>Created:</b>{{creationDate | date:'dd.MM.YYYY'}}<br/>        
+        <b>Authors:</b>{{course.authors}}<br/>
+        <b>Duration:</b>{{course.duration | date:'HH:mm'}} hours<br/>
+        <b>Created:</b>{{course.creationDate | date:'dd.MM.YYYY'}}<br/>        
       </div>
     </div>
     <div class="row">

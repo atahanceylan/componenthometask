@@ -5,9 +5,8 @@ import { ButtonComponent } from 'src/app/button/button.component';
 import { CoursecardComponent } from 'src/app/coursecard/coursecard.component';
 import { CourselistComponent } from 'src/app/courselist/courselist.component';
 import { InfoComponent } from 'src/app/info/info.component';
-import {CoursesComponent} from 'src/app/features/courses/courses.component'
 
-const COMPONENTS = [HeaderComponent, ButtonComponent, CoursecardComponent, CourselistComponent, InfoComponent, CoursesComponent];
+const COMPONENTS = [HeaderComponent, ButtonComponent, CoursecardComponent, CourselistComponent, InfoComponent];
 
 @NgModule({
   declarations: [COMPONENTS],
